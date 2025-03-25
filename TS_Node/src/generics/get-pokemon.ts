@@ -1,10 +1,5 @@
 import axios from 'axios'
-import { Pokemon } from '../interfaces/pokemon';
-
-
-
-
-
+import { Pokemon } from '../interfaces';
 
 
 
