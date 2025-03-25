@@ -1,5 +1,5 @@
 import { genericFunctionArrow, genericFunction,printObject} from "../generics/generics";
-import { vilian,Hero } from "../interfaces";
+import { Villain,Hero } from "../interfaces";
 
 
 
@@ -26,4 +26,4 @@ const deadpool ={
     dangerLevel: 130
 }
 
-console.log(genericFunctionArrow<vilian>(deadpool).dangerLevel)
+console.log(genericFunctionArrow<Villain>(deadpool).dangerLevel)
